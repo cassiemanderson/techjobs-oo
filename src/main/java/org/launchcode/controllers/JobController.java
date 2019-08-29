@@ -44,7 +44,7 @@ public class JobController {
         // redirect to the job detail view for the new Job.
         if (errors.hasErrors()) {
             model.addAttribute(jobForm);
-            return "new-form";
+            return "new-job";
         }
 
         String name = jobForm.getName();
